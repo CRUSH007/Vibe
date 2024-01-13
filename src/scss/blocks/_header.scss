@@ -63,6 +63,7 @@
 
 .sub-menu__box {
 	position: absolute;
+	left: 0;
 	top: 50px;
 	display: none;
 	z-index: 2;
@@ -73,13 +74,9 @@
 .sub-menu__row {
 	display: flex;
 	width: 700px;
-	margin-left: -32px;
-
 	a {
 		padding: 16px 32px;
 	}
-
-
 }
 
 .sub-menu__coll {
@@ -87,18 +84,17 @@
 	display: flex;
 	flex-direction: column;
 	gap: 6px;
-	margin-left: -48px;
-	padding: 16px;
-width: 100%;
+	padding: 16px 0 16px;
+	width: 100%;
 
 	li {
-		padding: 0 32px 0;
+		padding: 0 0 0 32px;
 	}
 }
 
 .rooms {
 	position: relative;
-	width: 200px;
+	width: 115px;
 	display: flex;
 	gap: 6px;
 
@@ -118,10 +114,11 @@ width: 100%;
 			top: 4px;
 			display: block;
 		}
+
 		.sub-sub-menu__coll {
 			position: absolute;
 			display: flex;
-			
+
 		}
 	}
 }
@@ -135,10 +132,12 @@ width: 100%;
 
 .sub-sub-menu__coll {
 	display: none;
-	right: -120px;
+	left: 0;
+	transform: translateX(100%);
 	flex-direction: column;
 	gap: 6px;
 	width: max-content;
+	z-index: 3;
 
 	li {
 		color: rgba(0, 0, 0, 0.54);
@@ -147,6 +146,9 @@ width: 100%;
 		font-style: normal;
 		font-weight: 300;
 		line-height: 20px;
+		&:hover{
+			color:#000;
+		}
 	}
 }
 
