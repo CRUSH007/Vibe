@@ -1,0 +1,162 @@
+.header {}
+
+.header-inner {}
+
+.header-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 27px 0 0;
+	border-bottom: thin solid #dddfe0;
+}
+
+.logo {}
+
+.menu-header {}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.menu-item {
+	position: relative;
+	color: rgba(0, 0, 0, 0.54);
+	font-family: TT Norms;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
+	padding: 16px 32px;
+
+	&:hover {
+		color: #000;
+
+		.sub-menu__box {
+			display: flex;
+		}
+	}
+
+	a {
+		color: rgba(0, 0, 0, 0.54);
+		cursor: pointer;
+		display: flex;
+
+		&:hover {
+			color: #000;
+		}
+
+		&:has(img) {
+			gap: 9px;
+		}
+
+	}
+}
+
+.menu__in {
+	display: flex;
+	cursor: pointer;
+	gap: 6px;
+}
+
+.sub-menu__box {
+	position: absolute;
+	top: 50px;
+	display: none;
+	z-index: 2;
+}
+
+
+
+.sub-menu__row {
+	display: flex;
+	width: 700px;
+	margin-left: -32px;
+
+	a {
+		padding: 16px 32px;
+	}
+
+
+}
+
+.sub-menu__coll {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	margin-left: -48px;
+	padding: 16px;
+width: 100%;
+
+	li {
+		padding: 0 32px 0;
+	}
+}
+
+.rooms {
+	position: relative;
+	width: 200px;
+	display: flex;
+	gap: 6px;
+
+	color: rgba(0, 0, 0, 0.54);
+	font-family: TT Norms;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 20px;
+
+	&:hover {
+		color: #000;
+
+		.arRoMini {
+			position: absolute;
+			left: 100px;
+			top: 4px;
+			display: block;
+		}
+		.sub-sub-menu__coll {
+			position: absolute;
+			display: flex;
+			
+		}
+	}
+}
+
+
+.arRoMini {
+	display: none;
+
+	&:hover {}
+}
+
+.sub-sub-menu__coll {
+	display: none;
+	right: -120px;
+	flex-direction: column;
+	gap: 6px;
+	width: max-content;
+
+	li {
+		color: rgba(0, 0, 0, 0.54);
+		font-family: TT Norms;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 20px;
+	}
+}
+
+
+.phone-header {
+	color: #000;
+	font-family: TT Norms;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: -1.015px;
+}
