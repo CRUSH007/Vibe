@@ -1,0 +1,79 @@
+.for-whom {
+    background: #F9F9F9;
+}
+
+.for-whom__inner {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.for-whom__content {}
+
+.for-whom__title {
+    color: #0E0E0E;
+    font-family: $TenorSans;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.for-whom__text {
+    margin: 20px 0 40px;
+    width: 482px;
+
+    color: #34343F;
+    font-family: $TTNorms;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.technicians {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.technician {
+    padding-bottom: 5px;
+}
+
+.technician__photo {
+    width: 285px;
+    height: 184px;
+    display: flex;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    img{
+        display: flex;
+        flex-shrink: 0;
+        width: 290px;
+    }
+}
+
+.technician__prof {
+    position: relative;
+    color: #34343F;
+    font-family: $TenorSans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 20px;
+    
+    &::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        height: 1px;
+        width: 40px;
+        background-color: #353535;
+    }
+}
