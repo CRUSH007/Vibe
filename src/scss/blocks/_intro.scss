@@ -56,6 +56,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    &:hover{
+        background: darken(#FFE600, 3%);
+    }
 }
 
 .intro-Photo {

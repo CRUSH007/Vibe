@@ -1,0 +1,119 @@
+.prices {
+    background: #F9F9F9;
+}
+
+.prices-inner {
+    padding-top: 100px;
+}
+
+.prices-inner-title {
+    color: #000;
+    font-family: $TenorSans;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.prices-inner-text {
+    width: 790.622px;
+
+    color: #363348;
+    font-family: $TTNorms;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 20px 0 40px;
+}
+
+.prices__block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.price-card {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 43px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 4px 42px 0px rgba(0, 0, 0, 0.04);
+}
+
+.card__title {
+    color: #34343F;
+    font-family: $TenorSans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.card__addreses {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+}
+
+.adress__item {
+    color: #000;
+    font-family: $TTNorms;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.days__block {
+    margin-top: 10px;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:  39.6px;
+}
+
+.work-day {
+    color: #34343F;
+    font-family: $TTNorms;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.pay-day {
+    color: #34343F;
+    font-family: $TTNorms;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.priceIN {
+    display: inline-flex;
+    padding: 1px 20px;
+    justify-content: center;
+    align-items: center;
+
+
+    border-radius: 4px;
+    background: #BFBFBF;
+
+    color: #FFF;
+    font-family: $TTNorms;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.a-btn {}

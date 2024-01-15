@@ -1,0 +1,47 @@
+.timeOfBusines {
+    background: #F9F9F9;
+}
+
+.timeOfBusines-inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.timeOfBusines-pict {}
+
+.timeOfBusines-content {
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeOfBusines-title {
+    color: #000;
+    font-family: $TenorSans;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+
+.timeOfBusines-text {
+    color: #000;
+    font-family: $TTNorms;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.timeOfBusines-btn {
+    color: #151515;
+    font-family: $TTNorms;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration-line: underline;
+}
