@@ -1,5 +1,5 @@
 .popular-questions {
-    
+
     padding-top: 100px;
 }
 
@@ -59,4 +59,10 @@
     font-style: normal;
     font-weight: 300;
     line-height: 120%;
+}
+.open{
+    display: block;
+}
+.rotate{
+    transform: rotate(180deg);
 }

@@ -1,1 +1,1 @@
-!function(){"use strict";!function(){const o=document.querySelector(".mobile-nav-btn"),e=document.querySelector(".mobile-nav"),n=document.querySelector(".nav-icon");o.onclick=function(){e.classList.toggle("mobile-nav--open"),n.classList.toggle("nav-icon--active"),document.body.classList.toggle("no-scroll")}}()}();
+!function(){"use strict";document.querySelectorAll(".question__item").forEach((function(t){t.addEventListener("click",(function(){const t=this.querySelector(".answer");this.querySelector(".arrow__btn").classList.toggle("rotate"),t.classList.toggle("open")}))}))}();

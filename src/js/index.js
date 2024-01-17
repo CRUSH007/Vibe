@@ -1,2 +1,5 @@
 import mobileNav from './modules/mobile-nav.js';
-mobileNav();
+import btnQuestion from './modules/btn-question.js';
+
+// mobileNav();
+btnQuestion();
