@@ -1,0 +1,123 @@
+.card-item {
+    width: 253px;
+    height: 505px;
+    flex-shrink: 0;
+    position: relative;
+
+
+    border-radius: 25px 25px 26.4px 26.4px;
+    background: #D9D9D9;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviews-block {
+    padding-top: 112px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review-seller {
+    align-self: self-start;
+    width: 160px;
+
+    background: url("../../img/tools/message-cloud.svg") no-repeat;
+    background-size: contain;
+    padding: 10px 10px 20px 20px;
+
+    color: #5D5D5D;
+    font-family: $TTNorms;
+    font-size: 9.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10.4px;
+}
+
+.review-customer {
+    position: relative;
+    align-self: self-end;
+    width: 160px;
+    height: 101px;
+
+    background: url("../../img/tools/Combined Shape1.jpg") no-repeat;
+    background-size: contain;
+
+    color: #5D5D5D;
+    font-family: $TTNorms;
+    font-size: 9.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10.4px;
+    padding: 10px 18px 18px 12px;
+
+    &::after {
+        content: url("../../img/icons/brackets.svg");
+        position: absolute;
+        bottom: 7.5px;
+        right: 15.3px;
+    }
+}
+
+.tools {}
+
+.tools-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 69px;
+    border-radius: 0 0 26.4px 26.4px;
+    padding: 0 20px 14.85px;
+
+
+    // opacity: 0.1877;
+    background: linear-gradient(180deg, rgba(54, 51, 72, 0.00) 0%, rgba(54, 51, 72, 0.26) 41%, rgba(54, 51, 72, 0.53) 68.44%, rgba(54, 51, 72, 0.185) 100%);
+}
+
+.photo-tools {
+    img {
+        width: 10.4px;
+        height: 10.4px;
+    }
+
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.8px solid rgba(255, 255, 255, 0.815);
+}
+
+.message-tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 177px;
+
+    color: #FFF;
+    font-family: $TTNorms;
+    font-size: 6.4px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10.4px;
+    padding: 6.25px 12px;
+
+
+    border-radius: 12.5px;
+    border: 0.8px solid rgba(255, 255, 255, 0.815);
+}
+
+.send-tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24.89px;
+    width: 24.89px;
+}
